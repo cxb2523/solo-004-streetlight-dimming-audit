@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>路灯调光能耗审计</title>
+  <link rel="stylesheet" href="/web/styles.css?v=3">
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">
+      <h1>路灯调光能耗审计</h1>
+      <p class="subtitle">
+        数据源：<code>data/lamps.json</code>（台账）、<code>data/curves.json</code>（回路与调光曲线）
+        · 电价 <strong id="priceBadge">--</strong> 元/kWh
+      </p>
+    </div>
+    <div class="range-box">
+      <label>分析区间
+        <input type="date" id="dateStart"> 至 <input type="date" id="dateEnd">
+      </label>
+      <label>基准取数日
+        <input type="date" id="refDate">
+      </label>
+      <button id="btnRecalc" type="button">重新计算</button>
+    </div>
+  </header>
+
+  <section class="model-note" id="modelNote"></section>
+
+  <section id="auditPanel" class="audit-panel hidden">
+    <h2>数据审计</h2>
+    <div id="auditList"></div>
+  </section>
+
+  <main class="layout">
+    <section class="card map-card">
+      <div class="card-head">
+        <h2>回路平面图</h2>
+        <div class="legend-hint">点击回路或图例高亮 · 红点=坐标异常灯</div>
+      </div>
+      <div id="mapWrap"></div>
+      <div id="mapLegend" class="legend"></div>
+    </section>
+
+    <section class="card detail-card">
+      <div class="card-head">
+        <h2 id="detailTitle">回路详情</h2>
+      </div>
+      <div id="curveControls"></div>
+      <div id="workedExample"></div>
+      <div id="lampTableWrap"></div>
+    </section>
+  </main>
+
+  <section class="card compare-card">
+    <div class="card-head">
+      <h2>两套调光方案并排对比</h2>
+      <div class="legend-hint">按 |电费差| 从大到小排序；在上方“回路详情”里改任一档位，两张表立即重算。</div>
+    </div>
+    <div id="totalsBar" class="totals-bar"></div>
+    <div id="compareTableWrap"></div>
+  </section>
+
+  <section class="card calendar-card">
+    <div class="card-head">
+      <h2>区间月历核对</h2>
+      <div class="legend-hint">按自然月实际天数（含跨月、二月、大小月），从不按 30 天一口价。</div>
+    </div>
+    <div id="monthStrip" class="month-strip"></div>
+  </section>
+
+  <script src="/web/core.js?v=3"></script>
+  <script src="/web/app.js?v=3"></script>
+</body>
+</html>
+

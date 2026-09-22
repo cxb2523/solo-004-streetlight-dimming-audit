@@ -1,0 +1,14 @@
+{
+  "name": "streetlight-dimming-audit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "路灯调光能耗审计（纯前端 + Node 20 零依赖静态服务）",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node scripts/generate-sample.js",
+    "verify": "node scripts/verify.js"
+  }
+}

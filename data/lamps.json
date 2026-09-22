@@ -1,0 +1,908 @@
+{
+  "schema": "streetlight-lamps/1",
+  "generatedAt": "2026-09-22",
+  "pricePerKwh": 0.62,
+  "note": "坐标为模拟经纬度；坐标异常灯请以 curves.json 同批次审计结果为准。",
+  "lamps": [
+    {
+      "id": "L-001",
+      "circuitId": "C1",
+      "lng": 120.103401,
+      "lat": 30.337149,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-002",
+      "circuitId": "C1",
+      "lng": 120.104537,
+      "lat": 30.336552,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-003",
+      "circuitId": "C1",
+      "lng": 120.106085,
+      "lat": 30.325176,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-004",
+      "circuitId": "C1",
+      "lng": 120.106994,
+      "lat": 30.317386,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-005",
+      "circuitId": "C1",
+      "lng": 120.109134,
+      "lat": 30.316279,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-006",
+      "circuitId": "C1",
+      "lng": 120.116294,
+      "lat": 30.320757,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-007",
+      "circuitId": "C1",
+      "lng": 120.117569,
+      "lat": 30.317988,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-008",
+      "circuitId": "C1",
+      "lng": 120.123261,
+      "lat": 30.316219,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2026-07-01"
+    },
+    {
+      "id": "L-009",
+      "circuitId": "C1",
+      "lng": 120.127146,
+      "lat": 30.319073,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-010",
+      "circuitId": "C1",
+      "lng": 120.224,
+      "lat": 30.256,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-011",
+      "circuitId": "C10",
+      "lng": 120.141504,
+      "lat": 30.271197,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-012",
+      "circuitId": "C10",
+      "lng": 120.142899,
+      "lat": 30.257046,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-013",
+      "circuitId": "C10",
+      "lng": 120.147824,
+      "lat": 30.270654,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-014",
+      "circuitId": "C10",
+      "lng": 120.148375,
+      "lat": 30.270924,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-015",
+      "circuitId": "C10",
+      "lng": 120.149246,
+      "lat": 30.256097,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-016",
+      "circuitId": "C10",
+      "lng": 120.149697,
+      "lat": 30.264522,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-017",
+      "circuitId": "C10",
+      "lng": 120.154618,
+      "lat": 30.271824,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-018",
+      "circuitId": "C10",
+      "lng": 120.15591,
+      "lat": 30.263881,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-019",
+      "circuitId": "C11",
+      "lng": 120.165114,
+      "lat": 30.257407,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-020",
+      "circuitId": "C11",
+      "lng": 120.166664,
+      "lat": 30.276575,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-021",
+      "circuitId": "C11",
+      "lng": 120.169062,
+      "lat": 30.26792,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-022",
+      "circuitId": "C11",
+      "lng": 120.172763,
+      "lat": 30.266593,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-023",
+      "circuitId": "C11",
+      "lng": 120.1736,
+      "lat": 30.26658,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-024",
+      "circuitId": "C11",
+      "lng": 120.179424,
+      "lat": 30.26286,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-025",
+      "circuitId": "C11",
+      "lng": 120.179958,
+      "lat": 30.269114,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-026",
+      "circuitId": "C11",
+      "lng": 120.186995,
+      "lat": 30.272599,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-027",
+      "circuitId": "C12",
+      "lng": 120.205748,
+      "lat": 30.267062,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-028",
+      "circuitId": "C12",
+      "lng": 120.207297,
+      "lat": 30.264429,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-029",
+      "circuitId": "C12",
+      "lng": 120.20894,
+      "lat": 30.257061,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-030",
+      "circuitId": "C12",
+      "lng": 120.210751,
+      "lat": 30.259,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-031",
+      "circuitId": "C12",
+      "lng": 120.210772,
+      "lat": 30.271139,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-032",
+      "circuitId": "C12",
+      "lng": 120.212955,
+      "lat": 30.258545,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2027-06-01"
+    },
+    {
+      "id": "L-033",
+      "circuitId": "C12",
+      "lng": 120.215554,
+      "lat": 30.256313,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-034",
+      "circuitId": "C2",
+      "lng": 120.131873,
+      "lat": 30.331195,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-035",
+      "circuitId": "C2",
+      "lng": 120.134571,
+      "lat": 30.332219,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-036",
+      "circuitId": "C2",
+      "lng": 120.138912,
+      "lat": 30.335957,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-037",
+      "circuitId": "C2",
+      "lng": 120.145561,
+      "lat": 30.32321,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-038",
+      "circuitId": "C2",
+      "lng": 120.148087,
+      "lat": 30.330371,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-039",
+      "circuitId": "C2",
+      "lng": 120.14845,
+      "lat": 30.330697,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-040",
+      "circuitId": "C2",
+      "lng": 120.151177,
+      "lat": 30.328488,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-041",
+      "circuitId": "C2",
+      "lng": 120.15273,
+      "lat": 30.327337,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-042",
+      "circuitId": "C3",
+      "lng": 120.169125,
+      "lat": 30.327976,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2026-03-01"
+    },
+    {
+      "id": "L-043",
+      "circuitId": "C3",
+      "lng": 120.169821,
+      "lat": 30.313167,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-044",
+      "circuitId": "C3",
+      "lng": 120.170838,
+      "lat": 30.313004,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-045",
+      "circuitId": "C3",
+      "lng": 120.179534,
+      "lat": 30.326665,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-046",
+      "circuitId": "C3",
+      "lng": 120.185603,
+      "lat": 30.323114,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-047",
+      "circuitId": "C3",
+      "lng": 120.18754,
+      "lat": 30.314751,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-048",
+      "circuitId": "C3",
+      "lng": 120.188958,
+      "lat": 30.324757,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-049",
+      "circuitId": "C3",
+      "lng": 120.192649,
+      "lat": 30.326128,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-050",
+      "circuitId": "C4",
+      "lng": 120.191052,
+      "lat": 30.334156,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-051",
+      "circuitId": "C4",
+      "lng": 120.194824,
+      "lat": 30.32887,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-052",
+      "circuitId": "C4",
+      "lng": 120.197268,
+      "lat": 30.336556,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-053",
+      "circuitId": "C4",
+      "lng": 120.197732,
+      "lat": 30.332485,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-054",
+      "circuitId": "C4",
+      "lng": 120.199375,
+      "lat": 30.31509,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-055",
+      "circuitId": "C4",
+      "lng": 120.20754,
+      "lat": 30.320427,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-056",
+      "circuitId": "C4",
+      "lng": 120.207908,
+      "lat": 30.326572,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-057",
+      "circuitId": "C4",
+      "lng": 120.211655,
+      "lat": 30.337304,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-058",
+      "circuitId": "C4",
+      "lng": 120.216951,
+      "lat": 30.325815,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-059",
+      "circuitId": "C5",
+      "lng": 120.110552,
+      "lat": 30.297561,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-060",
+      "circuitId": "C5",
+      "lng": 120.111762,
+      "lat": 30.306994,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-061",
+      "circuitId": "C5",
+      "lng": 120.112158,
+      "lat": 30.298445,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-062",
+      "circuitId": "C5",
+      "lng": 120.114943,
+      "lat": 30.30489,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-063",
+      "circuitId": "C5",
+      "lng": 120.115428,
+      "lat": 30.305656,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-064",
+      "circuitId": "C5",
+      "lng": 120.115688,
+      "lat": 30.282793,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-065",
+      "circuitId": "C5",
+      "lng": 120.11902,
+      "lat": 30.284867,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-066",
+      "circuitId": "C5",
+      "lng": 120.123231,
+      "lat": 30.308054,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-067",
+      "circuitId": "C5",
+      "lng": 120.12633,
+      "lat": 30.291403,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-068",
+      "circuitId": "C6",
+      "lng": 120.115,
+      "lat": 30.32,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-069",
+      "circuitId": "C6",
+      "lng": 120.132397,
+      "lat": 30.30553,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-070",
+      "circuitId": "C6",
+      "lng": 120.13259,
+      "lat": 30.305513,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-071",
+      "circuitId": "C6",
+      "lng": 120.142009,
+      "lat": 30.282227,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-072",
+      "circuitId": "C6",
+      "lng": 120.144455,
+      "lat": 30.296079,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-073",
+      "circuitId": "C6",
+      "lng": 120.145368,
+      "lat": 30.306821,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-074",
+      "circuitId": "C6",
+      "lng": 120.153984,
+      "lat": 30.299518,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-075",
+      "circuitId": "C6",
+      "lng": 120.15745,
+      "lat": 30.291557,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-076",
+      "circuitId": "C6",
+      "lng": 120.157991,
+      "lat": 30.293682,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-077",
+      "circuitId": "C7",
+      "lng": 120.177258,
+      "lat": 30.285805,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-078",
+      "circuitId": "C7",
+      "lng": 120.179434,
+      "lat": 30.290124,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-079",
+      "circuitId": "C7",
+      "lng": 120.181198,
+      "lat": 30.293632,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2026-09-15"
+    },
+    {
+      "id": "L-080",
+      "circuitId": "C7",
+      "lng": 120.181822,
+      "lat": 30.300339,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-081",
+      "circuitId": "C7",
+      "lng": 120.182304,
+      "lat": 30.289193,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-082",
+      "circuitId": "C7",
+      "lng": 120.187157,
+      "lat": 30.303836,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-083",
+      "circuitId": "C7",
+      "lng": 120.18919,
+      "lat": 30.296943,
+      "powerKw": 0.2,
+      "sourceType": "LED",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-084",
+      "circuitId": "C8",
+      "lng": 120.190567,
+      "lat": 30.304174,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-085",
+      "circuitId": "C8",
+      "lng": 120.196495,
+      "lat": 30.306413,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-086",
+      "circuitId": "C8",
+      "lng": 120.200369,
+      "lat": 30.288019,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-087",
+      "circuitId": "C8",
+      "lng": 120.200781,
+      "lat": 30.291447,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-088",
+      "circuitId": "C8",
+      "lng": 120.205421,
+      "lat": 30.290128,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-089",
+      "circuitId": "C8",
+      "lng": 120.206729,
+      "lat": 30.307234,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-090",
+      "circuitId": "C8",
+      "lng": 120.207515,
+      "lat": 30.300783,
+      "powerKw": 0.15,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-091",
+      "circuitId": "C8",
+      "lng": 120.215989,
+      "lat": 30.301458,
+      "powerKw": 0.4,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2025-01-25"
+    },
+    {
+      "id": "L-092",
+      "circuitId": "C8",
+      "lng": 120.217646,
+      "lat": 30.297412,
+      "powerKw": 0.25,
+      "sourceType": "高压钠灯",
+      "commissionDate": "2023-08-18"
+    },
+    {
+      "id": "L-093",
+      "circuitId": "C9",
+      "lng": 120.104228,
+      "lat": 30.277695,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-094",
+      "circuitId": "C9",
+      "lng": 120.104518,
+      "lat": 30.253023,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2025-03-15"
+    },
+    {
+      "id": "L-095",
+      "circuitId": "C9",
+      "lng": 120.110655,
+      "lat": 30.26931,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2027-02-01"
+    },
+    {
+      "id": "L-096",
+      "circuitId": "C9",
+      "lng": 120.118774,
+      "lat": 30.25677,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2024-09-01"
+    },
+    {
+      "id": "L-097",
+      "circuitId": "C9",
+      "lng": 120.11933,
+      "lat": 30.264096,
+      "powerKw": 0.15,
+      "sourceType": "LED",
+      "commissionDate": "2025-06-20"
+    },
+    {
+      "id": "L-098",
+      "circuitId": "C9",
+      "lng": 120.121114,
+      "lat": 30.265296,
+      "powerKw": 0.08,
+      "sourceType": "LED",
+      "commissionDate": "2025-11-08"
+    },
+    {
+      "id": "L-099",
+      "circuitId": "C9",
+      "lng": 120.121776,
+      "lat": 30.251675,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2024-05-10"
+    },
+    {
+      "id": "L-100",
+      "circuitId": "C9",
+      "lng": 120.124843,
+      "lat": 30.253225,
+      "powerKw": 0.12,
+      "sourceType": "LED",
+      "commissionDate": "2023-08-18"
+    }
+  ]
+}
