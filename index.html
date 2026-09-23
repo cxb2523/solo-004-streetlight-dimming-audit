@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>路灯调光能耗审计</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-dot"></span>
+      <h1>路灯调光能耗审计台</h1>
+    </div>
+    <div class="toolbar">
+      <label>统计区间
+        <input type="date" id="windowStart" value="2025-01-15" />
+        <span class="tilde">至</span>
+        <input type="date" id="windowEnd" value="2025-03-15" />
+      </label>
+      <span id="windowDays" class="window-days"></span>
+      <span class="price-pill">电价 <b id="priceBox">0.62</b> 元/kWh</span>
+    </div>
+  </header>
+
+  <section class="model-banner" id="modelBanner"></section>
+
+  <section class="audit-panel" id="auditPanel"></section>
+
+  <main class="layout">
+    <section class="card map-card">
+      <div class="card-head">
+        <h2>回路平面图</h2>
+        <div class="map-legend">
+          <span><i class="dot normal"></i>正常灯</span>
+          <span><i class="dot bad"></i>坐标异常灯</span>
+          <span><i class="sq overlap"></i>回路重叠带</span>
+        </div>
+      </div>
+      <div id="mapWrap" class="map-wrap"></div>
+      <div id="mapTip" class="map-tip">点击多边形选择回路；点击灯点查看单灯演算。</div>
+    </section>
+
+    <section class="side">
+      <div class="card scheme-cards">
+        <div class="scheme-card" id="schemeACard">
+          <div class="scheme-head"><span class="tag tag-a">方案 A</span><span class="scheme-title">台账生效曲线</span></div>
+          <div class="scheme-control">
+            <label class="radio-line">
+              <input type="radio" name="modeA" value="ledger" checked /> 按台账生效曲线
+            </label>
+            <label class="radio-line">
+              <input type="radio" name="modeA" value="fixed" /> 全线固定
+              <select id="fixedA"></select>
+            </label>
+          </div>
+          <div class="scheme-stats">
+            <div><span class="muted">总能耗</span><b id="totA-kwh">—</b><em>kWh</em></div>
+            <div><span class="muted">总电费</span><b id="totA-cost">—</b><em>元</em></div>
+            <div><span class="muted">亮灯率</span><b id="totA-rate">—</b></div>
+          </div>
+        </div>
+        <div class="scheme-card" id="schemeBCard">
+          <div class="scheme-head"><span class="tag tag-b">方案 B</span><span class="scheme-title">比选方案</span></div>
+          <div class="scheme-control">
+            <label class="radio-line">
+              <input type="radio" name="modeB" value="ledger" /> 按台账生效曲线
+            </label>
+            <label class="radio-line">
+              <input type="radio" name="modeB" value="fixed" checked /> 全线固定
+              <select id="fixedB"></select>
+            </label>
+          </div>
+          <div class="scheme-stats">
+            <div><span class="muted">总能耗</span><b id="totB-kwh">—</b><em>kWh</em></div>
+            <div><span class="muted">总电费</span><b id="totB-cost">—</b><em>元</em></div>
+            <div><span class="muted">亮灯率</span><b id="totB-rate">—</b></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card selected-card" id="selectedCard">
+        <div class="card-head">
+          <h2 id="selectedTitle">未选择回路</h2>
+        </div>
+        <div id="selectedBody" class="selected-body muted">在左侧平面图点击回路，可在此为 A / B 分别改曲线。</div>
+      </div>
+    </section>
+  </main>
+
+  <section class="card compare-card">
+    <div class="card-head">
+      <h2>双方案回路对比</h2>
+      <span class="muted small">按 |能耗差| 从大到小排序</span>
+    </div>
+    <div class="table-scroll">
+      <table id="compareTable">
+        <thead>
+          <tr>
+            <th>回路</th>
+            <th>灯数</th>
+            <th class="scheme-col">A 曲线</th>
+            <th class="scheme-col">A 能耗 (kWh)</th>
+            <th class="scheme-col">A 电费 (元)</th>
+            <th class="scheme-col">A 亮灯率</th>
+            <th class="scheme-col">B 曲线</th>
+            <th class="scheme-col">B 能耗 (kWh)</th>
+            <th class="scheme-col">B 电费 (元)</th>
+            <th class="scheme-col">B 亮灯率</th>
+            <th>能耗差 (kWh)</th>
+            <th>电费差 (元)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+  </section>
+
+  <div class="modal-backdrop hidden" id="modalBackdrop">
+    <div class="modal" id="lampModal" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <footer class="notes">
+    <h3>计算口径（本页可逐步验算）</h3>
+    <ol id="calcNotes"></ol>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

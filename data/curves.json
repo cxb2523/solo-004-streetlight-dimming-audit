@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "pricePerKwh": 0.62,
+  "scheduledOn": "18:00",
+  "scheduledOff": "06:00",
+  "brightnessModel": {
+    "id": "linear",
+    "name": "亮度百分比线性折算",
+    "note": "功率 = 额定功率 × 亮度百分比（70% 亮度即按额定功率的 70% 计耗），不做光通量/视觉补偿。"
+  },
+  "curves": [
+    {
+      "id": "STD",
+      "name": "标准曲线",
+      "segments": [
+        {
+          "start": "18:00",
+          "end": "21:00",
+          "brightnessPct": 100
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "brightnessPct": 80
+        },
+        {
+          "start": "23:00",
+          "end": "05:00",
+          "brightnessPct": 60
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "brightnessPct": 80
+        }
+      ]
+    },
+    {
+      "id": "ECO",
+      "name": "深夜节能曲线",
+      "segments": [
+        {
+          "start": "18:00",
+          "end": "21:00",
+          "brightnessPct": 100
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "brightnessPct": 70
+        },
+        {
+          "start": "23:00",
+          "end": "05:00",
+          "brightnessPct": 40
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "brightnessPct": 70
+        }
+      ]
+    },
+    {
+      "id": "DEEP",
+      "name": "深夜加强节能",
+      "segments": [
+        {
+          "start": "18:00",
+          "end": "21:00",
+          "brightnessPct": 90
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "brightnessPct": 60
+        },
+        {
+          "start": "23:00",
+          "end": "05:00",
+          "brightnessPct": 30
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "brightnessPct": 60
+        }
+      ]
+    },
+    {
+      "id": "BOOST",
+      "name": "高亮度保障曲线",
+      "segments": [
+        {
+          "start": "18:00",
+          "end": "21:00",
+          "brightnessPct": 100
+        },
+        {
+          "start": "21:00",
+          "end": "23:00",
+          "brightnessPct": 90
+        },
+        {
+          "start": "23:00",
+          "end": "05:00",
+          "brightnessPct": 75
+        },
+        {
+          "start": "05:00",
+          "end": "06:00",
+          "brightnessPct": 90
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "circuitId": "L01",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L02",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L03",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L04",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L05",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": "2025-02-28"
+    },
+    {
+      "circuitId": "L05",
+      "curveId": "ECO",
+      "startDate": "2025-03-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L06",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L07",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L08",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L09",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L10",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L11",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L12",
+      "curveId": "STD",
+      "startDate": "2025-01-01",
+      "endDate": null
+    },
+    {
+      "circuitId": "L10",
+      "curveId": "ECO",
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-15"
+    }
+  ]
+}

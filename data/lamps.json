@@ -1,0 +1,1177 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "WGS84 lon/lat",
+  "circuits": [
+    {
+      "id": "L01",
+      "name": "中山路主干道",
+      "polygon": [
+        [
+          121.47,
+          31.23
+        ],
+        [
+          121.4736,
+          31.23
+        ],
+        [
+          121.4736,
+          31.2273
+        ],
+        [
+          121.47,
+          31.2273
+        ]
+      ]
+    },
+    {
+      "id": "L02",
+      "name": "延安路路段",
+      "polygon": [
+        [
+          121.4736,
+          31.23
+        ],
+        [
+          121.47721200000001,
+          31.230008
+        ],
+        [
+          121.47720000000001,
+          31.2273
+        ],
+        [
+          121.473608,
+          31.22729
+        ]
+      ]
+    },
+    {
+      "id": "L03",
+      "name": "南京路路段",
+      "polygon": [
+        [
+          121.4772,
+          31.23
+        ],
+        [
+          121.480824,
+          31.230016
+        ],
+        [
+          121.4808,
+          31.2273
+        ],
+        [
+          121.477216,
+          31.22728
+        ]
+      ]
+    },
+    {
+      "id": "L04",
+      "name": "淮海路路段",
+      "polygon": [
+        [
+          121.4808,
+          31.23
+        ],
+        [
+          121.484436,
+          31.230024
+        ],
+        [
+          121.48440000000001,
+          31.2273
+        ],
+        [
+          121.480824,
+          31.22727
+        ]
+      ]
+    },
+    {
+      "id": "L05",
+      "name": "滨江路路段",
+      "polygon": [
+        [
+          121.47,
+          31.2273
+        ],
+        [
+          121.47364800000001,
+          31.227332
+        ],
+        [
+          121.4736,
+          31.2246
+        ],
+        [
+          121.470032,
+          31.22456
+        ]
+      ]
+    },
+    {
+      "id": "L06",
+      "name": "栖霞路路段",
+      "polygon": [
+        [
+          121.4736,
+          31.2273
+        ],
+        [
+          121.47726000000002,
+          31.227339999999998
+        ],
+        [
+          121.47720000000001,
+          31.2246
+        ],
+        [
+          121.47364,
+          31.224549999999997
+        ]
+      ]
+    },
+    {
+      "id": "L07",
+      "name": "虹桥路路段",
+      "polygon": [
+        [
+          121.4772,
+          31.2273
+        ],
+        [
+          121.481522,
+          31.227348
+        ],
+        [
+          121.48145,
+          31.2246
+        ],
+        [
+          121.477248,
+          31.224539999999998
+        ]
+      ]
+    },
+    {
+      "id": "L08",
+      "name": "漕河路路段",
+      "polygon": [
+        [
+          121.4808,
+          31.2273
+        ],
+        [
+          121.48448400000001,
+          31.227356
+        ],
+        [
+          121.48440000000001,
+          31.2246
+        ],
+        [
+          121.480856,
+          31.224529999999998
+        ]
+      ]
+    },
+    {
+      "id": "L09",
+      "name": "莘庄路路段",
+      "polygon": [
+        [
+          121.47,
+          31.2246
+        ],
+        [
+          121.473696,
+          31.224663999999997
+        ],
+        [
+          121.4736,
+          31.221899999999998
+        ],
+        [
+          121.470064,
+          31.221819999999997
+        ]
+      ]
+    },
+    {
+      "id": "L10",
+      "name": "张江路路段",
+      "polygon": [
+        [
+          121.4736,
+          31.2246
+        ],
+        [
+          121.47730800000001,
+          31.224671999999998
+        ],
+        [
+          121.47720000000001,
+          31.221899999999998
+        ],
+        [
+          121.47367200000001,
+          31.221809999999998
+        ]
+      ]
+    },
+    {
+      "id": "L11",
+      "name": "金桥路路段",
+      "polygon": [
+        [
+          121.4772,
+          31.2246
+        ],
+        [
+          121.48092,
+          31.22468
+        ],
+        [
+          121.4808,
+          31.221899999999998
+        ],
+        [
+          121.47728,
+          31.221799999999998
+        ]
+      ]
+    },
+    {
+      "id": "L12",
+      "name": "外高路路段",
+      "polygon": [
+        [
+          121.4808,
+          31.2246
+        ],
+        [
+          121.484532,
+          31.224688
+        ],
+        [
+          121.48440000000001,
+          31.221899999999998
+        ],
+        [
+          121.48088800000001,
+          31.22179
+        ]
+      ]
+    }
+  ],
+  "lamps": [
+    {
+      "id": "SL-0001",
+      "circuitId": "L01",
+      "lon": 121.472363,
+      "lat": 31.22803,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2024-09-29"
+    },
+    {
+      "id": "SL-0002",
+      "circuitId": "L01",
+      "lon": 121.472775,
+      "lat": 31.228136,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-04-05"
+    },
+    {
+      "id": "SL-0003",
+      "circuitId": "L01",
+      "lon": 121.472925,
+      "lat": 31.228664,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2024-10-06"
+    },
+    {
+      "id": "SL-0004",
+      "circuitId": "L01",
+      "lon": 121.472846,
+      "lat": 31.22877,
+      "powerW": 120,
+      "lightSource": "LED",
+      "commissionDate": "2024-03-06"
+    },
+    {
+      "id": "SL-0005",
+      "circuitId": "L01",
+      "lon": 121.472248,
+      "lat": 31.229185,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2025-02-10"
+    },
+    {
+      "id": "SL-0006",
+      "circuitId": "L01",
+      "lon": 121.471217,
+      "lat": 31.228385,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-01-21"
+    },
+    {
+      "id": "SL-0007",
+      "circuitId": "L01",
+      "lon": 121.472976,
+      "lat": 31.228059,
+      "powerW": 200,
+      "lightSource": "LED",
+      "commissionDate": "2024-07-24"
+    },
+    {
+      "id": "SL-0008",
+      "circuitId": "L01",
+      "lon": 121.471409,
+      "lat": 31.228124,
+      "powerW": 200,
+      "lightSource": "LED",
+      "commissionDate": "2023-07-20"
+    },
+    {
+      "id": "SL-0009",
+      "circuitId": "L01",
+      "lon": 121.470902,
+      "lat": 31.227971,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2024-09-09"
+    },
+    {
+      "id": "SL-0010",
+      "circuitId": "L02",
+      "lon": 121.476208,
+      "lat": 31.229337,
+      "powerW": 120,
+      "lightSource": "LED",
+      "commissionDate": "2024-03-05"
+    },
+    {
+      "id": "SL-0011",
+      "circuitId": "L02",
+      "lon": 121.474834,
+      "lat": 31.22938,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-02-02"
+    },
+    {
+      "id": "SL-0012",
+      "circuitId": "L02",
+      "lon": 121.475817,
+      "lat": 31.227916,
+      "powerW": 175,
+      "lightSource": "金卤灯",
+      "commissionDate": "2024-05-21"
+    },
+    {
+      "id": "SL-0013",
+      "circuitId": "L02",
+      "lon": 121.474217,
+      "lat": 31.22921,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2023-01-01"
+    },
+    {
+      "id": "SL-0014",
+      "circuitId": "L02",
+      "lon": 121.474287,
+      "lat": 31.229452,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2023-04-23"
+    },
+    {
+      "id": "SL-0015",
+      "circuitId": "L02",
+      "lon": 121.476538,
+      "lat": 31.228214,
+      "powerW": 250,
+      "lightSource": "金卤灯",
+      "commissionDate": "2024-07-07"
+    },
+    {
+      "id": "SL-0016",
+      "circuitId": "L02",
+      "lon": 121.474688,
+      "lat": 31.227846,
+      "powerW": 250,
+      "lightSource": "金卤灯",
+      "commissionDate": "2023-08-20"
+    },
+    {
+      "id": "SL-0017",
+      "circuitId": "L02",
+      "lon": 121.474962,
+      "lat": 31.228107,
+      "powerW": 200,
+      "lightSource": "LED",
+      "commissionDate": "2023-08-03"
+    },
+    {
+      "id": "SL-0018",
+      "circuitId": "L03",
+      "lon": 121.480009,
+      "lat": 31.229498,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2024-06-29"
+    },
+    {
+      "id": "SL-0019",
+      "circuitId": "L03",
+      "lon": 121.479594,
+      "lat": 31.228635,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2023-11-21"
+    },
+    {
+      "id": "SL-0020",
+      "circuitId": "L03",
+      "lon": 121.480066,
+      "lat": 31.22846,
+      "powerW": 120,
+      "lightSource": "LED",
+      "commissionDate": "2025-03-01"
+    },
+    {
+      "id": "SL-0021",
+      "circuitId": "L03",
+      "lon": 121.478271,
+      "lat": 31.228676,
+      "powerW": 200,
+      "lightSource": "LED",
+      "commissionDate": "2024-01-10"
+    },
+    {
+      "id": "SL-0022",
+      "circuitId": "L03",
+      "lon": 121.478155,
+      "lat": 31.229193,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2024-07-14"
+    },
+    {
+      "id": "SL-0023",
+      "circuitId": "L03",
+      "lon": 121.479508,
+      "lat": 31.228207,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2024-12-08"
+    },
+    {
+      "id": "SL-0024",
+      "circuitId": "L03",
+      "lon": 121.480184,
+      "lat": 31.229565,
+      "powerW": 250,
+      "lightSource": "金卤灯",
+      "commissionDate": "2023-10-07"
+    },
+    {
+      "id": "SL-0025",
+      "circuitId": "L04",
+      "lon": 121.483394,
+      "lat": 31.228045,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2023-04-02"
+    },
+    {
+      "id": "SL-0026",
+      "circuitId": "L04",
+      "lon": 121.483371,
+      "lat": 31.228267,
+      "powerW": 120,
+      "lightSource": "LED",
+      "commissionDate": "2024-04-05"
+    },
+    {
+      "id": "SL-0027",
+      "circuitId": "L04",
+      "lon": 121.483186,
+      "lat": 31.229189,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-03-27"
+    },
+    {
+      "id": "SL-0028",
+      "circuitId": "L04",
+      "lon": 121.482824,
+      "lat": 31.229272,
+      "powerW": 120,
+      "lightSource": "LED",
+      "commissionDate": "2024-06-15"
+    },
+    {
+      "id": "SL-0029",
+      "circuitId": "L04",
+      "lon": 121.481996,
+      "lat": 31.229082,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-05-04"
+    },
+    {
+      "id": "SL-0030",
+      "circuitId": "L04",
+      "lon": 121.48356,
+      "lat": 31.229526,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-04-09"
+    },
+    {
+      "id": "SL-0031",
+      "circuitId": "L04",
+      "lon": 121.483295,
+      "lat": 31.22818,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2024-01-26"
+    },
+    {
+      "id": "SL-0032",
+      "circuitId": "L04",
+      "lon": 121.482144,
+      "lat": 31.229445,
+      "powerW": 250,
+      "lightSource": "金卤灯",
+      "commissionDate": "2023-04-28"
+    },
+    {
+      "id": "SL-0033",
+      "circuitId": "L05",
+      "lon": 121.471374,
+      "lat": 31.226668,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-12-04"
+    },
+    {
+      "id": "SL-0034",
+      "circuitId": "L05",
+      "lon": 121.472619,
+      "lat": 31.225969,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2023-04-29"
+    },
+    {
+      "id": "SL-0035",
+      "circuitId": "L05",
+      "lon": 121.472721,
+      "lat": 31.225744,
+      "powerW": 180,
+      "lightSource": "LED",
+      "commissionDate": "2024-01-07"
+    },
+    {
+      "id": "SL-0036",
+      "circuitId": "L05",
+      "lon": 121.471357,
+      "lat": 31.225842,
+      "powerW": 65,
+      "lightSource": "节能灯",
+      "commissionDate": "2024-08-15"
+    },
+    {
+      "id": "SL-0037",
+      "circuitId": "L05",
+      "lon": 121.470644,
+      "lat": 31.226617,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2023-02-01"
+    },
+    {
+      "id": "SL-0038",
+      "circuitId": "L05",
+      "lon": 121.47207,
+      "lat": 31.226095,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2023-04-27"
+    },
+    {
+      "id": "SL-0039",
+      "circuitId": "L05",
+      "lon": 121.472344,
+      "lat": 31.225723,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-03-31"
+    },
+    {
+      "id": "SL-0040",
+      "circuitId": "L05",
+      "lon": 121.472288,
+      "lat": 31.22554,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2025-01-20"
+    },
+    {
+      "id": "SL-0041",
+      "circuitId": "L06",
+      "lon": 121.475634,
+      "lat": 31.22627,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-10-06"
+    },
+    {
+      "id": "SL-0042",
+      "circuitId": "L06",
+      "lon": 121.476192,
+      "lat": 31.225709,
+      "powerW": 175,
+      "lightSource": "金卤灯",
+      "commissionDate": "2023-03-17"
+    },
+    {
+      "id": "SL-0043",
+      "circuitId": "L06",
+      "lon": 121.476508,
+      "lat": 31.225001,
+      "powerW": 40,
+      "lightSource": "节能灯",
+      "commissionDate": "2024-11-28"
+    },
+    {
+      "id": "SL-0044",
+      "circuitId": "L06",
+      "lon": 121.476638,
+      "lat": 31.225363,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-09-07"
+    },
+    {
+      "id": "SL-0045",
+      "circuitId": "L06",
+      "lon": 121.475753,
+      "lat": 31.226866,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2023-06-21"
+    },
+    {
+      "id": "SL-0046",
+      "circuitId": "L06",
+      "lon": 121.474924,
+      "lat": 31.226109,
+      "powerW": 250,
+      "lightSource": "金卤灯",
+      "commissionDate": "2023-11-23"
+    },
+    {
+      "id": "SL-0047",
+      "circuitId": "L06",
+      "lon": 121.475811,
+      "lat": 31.226501,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2024-04-05"
+    },
+    {
+      "id": "SL-0048",
+      "circuitId": "L07",
+      "lon": 121.478188,
+      "lat": 31.225239,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2023-10-12"
+    },
+    {
+      "id": "SL-0049",
+      "circuitId": "L07",
+      "lon": 121.478686,
+      "lat": 31.225571,
+      "powerW": 120,
+      "lightSource": "LED",
+      "commissionDate": "2024-01-19"
+    },
+    {
+      "id": "SL-0050",
+      "circuitId": "L07",
+      "lon": 121.47971,
+      "lat": 31.225858,
+      "powerW": 180,
+      "lightSource": "LED",
+      "commissionDate": "2024-07-22"
+    },
+    {
+      "id": "SL-0051",
+      "circuitId": "L07",
+      "lon": 121.477988,
+      "lat": 31.225099,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2023-08-21"
+    },
+    {
+      "id": "SL-0052",
+      "circuitId": "L07",
+      "lon": 121.478147,
+      "lat": 31.22679,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2024-02-07"
+    },
+    {
+      "id": "SL-0053",
+      "circuitId": "L07",
+      "lon": 121.478498,
+      "lat": 31.225411,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-12-14"
+    },
+    {
+      "id": "SL-0054",
+      "circuitId": "L07",
+      "lon": 121.479002,
+      "lat": 31.226758,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2023-09-08"
+    },
+    {
+      "id": "SL-0055",
+      "circuitId": "L07",
+      "lon": 121.480124,
+      "lat": 31.226085,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-07-09"
+    },
+    {
+      "id": "SL-0056",
+      "circuitId": "L08",
+      "lon": 121.482429,
+      "lat": 31.226209,
+      "powerW": 250,
+      "lightSource": "金卤灯",
+      "commissionDate": "2023-06-14"
+    },
+    {
+      "id": "SL-0057",
+      "circuitId": "L08",
+      "lon": 121.481788,
+      "lat": 31.225669,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2023-09-13"
+    },
+    {
+      "id": "SL-0058",
+      "circuitId": "L08",
+      "lon": 121.482082,
+      "lat": 31.226533,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2023-01-05"
+    },
+    {
+      "id": "SL-0059",
+      "circuitId": "L08",
+      "lon": 121.483516,
+      "lat": 31.226153,
+      "powerW": 250,
+      "lightSource": "金卤灯",
+      "commissionDate": "2024-01-21"
+    },
+    {
+      "id": "SL-0060",
+      "circuitId": "L08",
+      "lon": 121.483805,
+      "lat": 31.225084,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2025-02-28"
+    },
+    {
+      "id": "SL-0061",
+      "circuitId": "L08",
+      "lon": 121.481803,
+      "lat": 31.226051,
+      "powerW": 40,
+      "lightSource": "节能灯",
+      "commissionDate": "2023-11-10"
+    },
+    {
+      "id": "SL-0062",
+      "circuitId": "L08",
+      "lon": 121.483464,
+      "lat": 31.224982,
+      "powerW": 180,
+      "lightSource": "LED",
+      "commissionDate": "2024-09-03"
+    },
+    {
+      "id": "SL-0063",
+      "circuitId": "L08",
+      "lon": 121.481493,
+      "lat": 31.225942,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2024-10-19"
+    },
+    {
+      "id": "SL-0064",
+      "circuitId": "L09",
+      "lon": 121.471383,
+      "lat": 31.223352,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2023-04-28"
+    },
+    {
+      "id": "SL-0065",
+      "circuitId": "L09",
+      "lon": 121.471903,
+      "lat": 31.223642,
+      "powerW": 175,
+      "lightSource": "金卤灯",
+      "commissionDate": "2024-11-30"
+    },
+    {
+      "id": "SL-0066",
+      "circuitId": "L09",
+      "lon": 121.472749,
+      "lat": 31.222718,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-06-13"
+    },
+    {
+      "id": "SL-0067",
+      "circuitId": "L09",
+      "lon": 121.472579,
+      "lat": 31.223661,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-11-25"
+    },
+    {
+      "id": "SL-0068",
+      "circuitId": "L09",
+      "lon": 121.471453,
+      "lat": 31.223137,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2024-09-08"
+    },
+    {
+      "id": "SL-0069",
+      "circuitId": "L09",
+      "lon": 121.471577,
+      "lat": 31.222713,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-06-03"
+    },
+    {
+      "id": "SL-0070",
+      "circuitId": "L09",
+      "lon": 121.472809,
+      "lat": 31.222941,
+      "powerW": 250,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-01-16"
+    },
+    {
+      "id": "SL-0071",
+      "circuitId": "L09",
+      "lon": 121.470752,
+      "lat": 31.222688,
+      "powerW": 40,
+      "lightSource": "节能灯",
+      "commissionDate": "2024-05-23"
+    },
+    {
+      "id": "SL-0072",
+      "circuitId": "L10",
+      "lon": 121.474906,
+      "lat": 31.223196,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-01-23"
+    },
+    {
+      "id": "SL-0073",
+      "circuitId": "L10",
+      "lon": 121.474313,
+      "lat": 31.223538,
+      "powerW": 80,
+      "lightSource": "LED",
+      "commissionDate": "2024-02-03"
+    },
+    {
+      "id": "SL-0074",
+      "circuitId": "L10",
+      "lon": 121.475562,
+      "lat": 31.22286,
+      "powerW": 120,
+      "lightSource": "LED",
+      "commissionDate": "2024-12-02"
+    },
+    {
+      "id": "SL-0075",
+      "circuitId": "L10",
+      "lon": 121.475401,
+      "lat": 31.222989,
+      "powerW": 120,
+      "lightSource": "LED",
+      "commissionDate": "2023-11-14"
+    },
+    {
+      "id": "SL-0076",
+      "circuitId": "L10",
+      "lon": 121.475631,
+      "lat": 31.222454,
+      "powerW": 85,
+      "lightSource": "节能灯",
+      "commissionDate": "2023-04-13"
+    },
+    {
+      "id": "SL-0077",
+      "circuitId": "L10",
+      "lon": 121.474528,
+      "lat": 31.222308,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-08-26"
+    },
+    {
+      "id": "SL-0078",
+      "circuitId": "L10",
+      "lon": 121.4767,
+      "lat": 31.222346,
+      "powerW": 150,
+      "lightSource": "LED",
+      "commissionDate": "2023-09-19"
+    },
+    {
+      "id": "SL-0079",
+      "circuitId": "L10",
+      "lon": 121.474591,
+      "lat": 31.223706,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2024-06-14"
+    },
+    {
+      "id": "SL-0080",
+      "circuitId": "L11",
+      "lon": 121.479364,
+      "lat": 31.224044,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2024-12-01"
+    },
+    {
+      "id": "SL-0081",
+      "circuitId": "L11",
+      "lon": 121.479625,
+      "lat": 31.222252,
+      "powerW": 40,
+      "lightSource": "节能灯",
+      "commissionDate": "2024-08-23"
+    },
+    {
+      "id": "SL-0082",
+      "circuitId": "L11",
+      "lon": 121.478516,
+      "lat": 31.223468,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2024-03-28"
+    },
+    {
+      "id": "SL-0083",
+      "circuitId": "L11",
+      "lon": 121.478276,
+      "lat": 31.224064,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2023-08-02"
+    },
+    {
+      "id": "SL-0084",
+      "circuitId": "L11",
+      "lon": 121.48025,
+      "lat": 31.223522,
+      "powerW": 180,
+      "lightSource": "LED",
+      "commissionDate": "2023-05-03"
+    },
+    {
+      "id": "SL-0085",
+      "circuitId": "L11",
+      "lon": 121.479516,
+      "lat": 31.222307,
+      "powerW": 400,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-08-13"
+    },
+    {
+      "id": "SL-0086",
+      "circuitId": "L11",
+      "lon": 121.477878,
+      "lat": 31.223928,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2024-06-15"
+    },
+    {
+      "id": "SL-0087",
+      "circuitId": "L11",
+      "lon": 121.4781,
+      "lat": 31.222403,
+      "powerW": 175,
+      "lightSource": "金卤灯",
+      "commissionDate": "2023-06-29"
+    },
+    {
+      "id": "SL-0088",
+      "circuitId": "L12",
+      "lon": 121.483759,
+      "lat": 31.223881,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-05-18"
+    },
+    {
+      "id": "SL-0089",
+      "circuitId": "L12",
+      "lon": 121.481844,
+      "lat": 31.222378,
+      "powerW": 150,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2023-02-14"
+    },
+    {
+      "id": "SL-0090",
+      "circuitId": "L12",
+      "lon": 121.481359,
+      "lat": 31.222539,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2025-01-15"
+    },
+    {
+      "id": "SL-0091",
+      "circuitId": "L12",
+      "lon": 121.48392,
+      "lat": 31.223188,
+      "powerW": 200,
+      "lightSource": "LED",
+      "commissionDate": "2023-02-25"
+    },
+    {
+      "id": "SL-0092",
+      "circuitId": "L12",
+      "lon": 121.48269,
+      "lat": 31.223394,
+      "powerW": 250,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-02-27"
+    },
+    {
+      "id": "SL-0093",
+      "circuitId": "L12",
+      "lon": 121.4831,
+      "lat": 31.223005,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2023-03-02"
+    },
+    {
+      "id": "SL-0094",
+      "circuitId": "L12",
+      "lon": 121.482974,
+      "lat": 31.22361,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2024-11-16"
+    },
+    {
+      "id": "SL-0095",
+      "circuitId": "L12",
+      "lon": 121.483269,
+      "lat": 31.223779,
+      "powerW": 60,
+      "lightSource": "LED",
+      "commissionDate": "2024-02-17"
+    },
+    {
+      "id": "SL-0096",
+      "circuitId": "L01",
+      "lon": 121.482107,
+      "lat": 31.223641,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2024-06-01",
+      "plantedNote": "台账回路与实际位置不符（灯落在 L12 范围内）"
+    },
+    {
+      "id": "SL-0097",
+      "circuitId": "L01",
+      "lon": 121.483039,
+      "lat": 31.223039,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2024-06-01",
+      "plantedNote": "台账回路与实际位置不符（灯落在 L12 范围内）"
+    },
+    {
+      "id": "SL-0098",
+      "circuitId": "L01",
+      "lon": 121.483195,
+      "lat": 31.223024,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2024-06-01",
+      "plantedNote": "台账回路与实际位置不符（灯落在 L12 范围内）"
+    },
+    {
+      "id": "SL-0099",
+      "circuitId": "L08",
+      "lon": 121.4811,
+      "lat": 31.22543,
+      "powerW": 100,
+      "lightSource": "LED",
+      "commissionDate": "2025-02-05",
+      "plantedNote": "坐标同时落在 L07 / L08 重叠带内"
+    },
+    {
+      "id": "SL-0100",
+      "circuitId": "L03",
+      "lon": 121.44701,
+      "lat": 31.230649,
+      "powerW": 250,
+      "lightSource": "高压钠灯",
+      "commissionDate": "2024-06-01",
+      "plantedNote": "坐标在所有回路范围之外，距台账回路约 3 km"
+    }
+  ]
+}
